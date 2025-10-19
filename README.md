@@ -18,6 +18,12 @@
 
 [![Get help on Slack](http://img.shields.io/badge/slack-nf--core%20%23rnaseq-4A154B?labelColor=000000&logo=slack)](https://nfcore.slack.com/channels/rnaseq)[![Follow on Bluesky](https://img.shields.io/badge/bluesky-%40nf__core-1185fe?labelColor=000000&logo=bluesky)](https://bsky.app/profile/nf-co.re)[![Follow on Mastodon](https://img.shields.io/badge/mastodon-nf__core-6364ff?labelColor=FFFFFF&logo=mastodon)](https://mstdn.science/@nf_core)[![Watch on YouTube](http://img.shields.io/badge/youtube-nf--core-FF0000?labelColor=000000&logo=youtube)](https://www.youtube.com/c/nf-core)
 
+> **📌 Note on Repository Privacy / 关于仓库隐私的说明**
+>
+> This is a forked repository. If you want to make this repository private, please see [PRIVATE_REPOSITORY.md](PRIVATE_REPOSITORY.md) for detailed instructions in both English and Chinese.
+>
+> 这是一个分叉的仓库。如果您想将此仓库设为私有，请参阅 [PRIVATE_REPOSITORY.md](PRIVATE_REPOSITORY.md) 获取中英文详细说明。
+
 ## Introduction
 
 **nf-core/rnaseq** is a bioinformatics pipeline that can be used to analyse RNA sequencing data obtained from organisms with a reference genome and annotation. It takes a samplesheet with FASTQ files or pre-aligned BAM files as input, performs quality control (QC), trimming and (pseudo-)alignment, and produces a gene expression matrix and extensive QC report.
